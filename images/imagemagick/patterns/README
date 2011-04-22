@@ -1,0 +1,2 @@
+cat patterns.txt | while read pattern; do convert -size 512x512 pattern:$pattern $pattern.png; done
+montage -border 0 -tile 9x6 -geometry 512x512 *.png pattern_montage.png
