@@ -8,3 +8,4 @@ convert palette_24.png -flip -flop palette_24_flip_flop.png
 convert palette_8.png -flip palette_8_flip.png
 convert palette_8.png -flop palette_8_flop.png
 convert palette_8.png -flip -flop palette_8_flip_flop.png
+montage palette_8.png palette_24_flop.png palette_8.png palette_24_flip.png palette_8_flip_flop.png palette_24_flip.png palette_8.png palette_24_flop.png palette_8.png -border 0 -tile 3x3 -geometry 512x341 palette_montage.png
