@@ -1,0 +1,7 @@
+*.info
+*.raw-r.png
+*.prn-r.png
+*.prn-v.png
+*.raw-v.png
+*_diff.png
+*.raw
