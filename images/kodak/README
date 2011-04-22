@@ -1,0 +1,4 @@
+for png in `ls *.png`; do identify $png; done | grep 512x768 | cut -d" " -f1 > rot.txt
+ls -1 *.png | sort | grep -f rot.txt -v | grep -v rot > norot.txt
+cat rot.txt | while read png; do convert $png -rotate 90 ${png%.png}_rot.png; done
+montage kodim01.png kodim02.png kodim03.png kodim05.png kodim06.png kodim07.png kodim08.png kodim11.png kodim12.png kodim13.png kodim14.png kodim15.png kodim16.png kodim20.png kodim21.png kodim22.png kodim23.png kodim24.png `ls *rot.png` -border 0 -tile 6x4 -geometry 768x512 kodak_montage.png
