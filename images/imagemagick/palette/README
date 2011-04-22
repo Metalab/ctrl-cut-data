@@ -1,0 +1,10 @@
+Version: ImageMagick 6.6.9-4 2011-04-12 Q16 http://www.imagemagick.org
+
+convert -depth 8 -colorspace GRAY NETSCAPE: palette_8.png
+convert -depth 24 NETSCAPE: palette_24.png
+convert palette_24.png -flip palette_24_flip.png
+convert palette_24.png -flop palette_24_flop.png
+convert palette_24.png -flip -flop palette_24_flip_flop.png
+convert palette_8.png -flip palette_8_flip.png
+convert palette_8.png -flop palette_8_flop.png
+convert palette_8.png -flip -flop palette_8_flip_flop.png
