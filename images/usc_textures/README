@@ -1,0 +1,4 @@
+http://sipi.usc.edu/database/database.php?volume=textures
+
+montage `cat 512.txt` -border 0 -tile 7x6 -geometry 512x512 usctex_montage_512.png
+montage `cat 1024.txt` -border 0 -tile 5x5 -geometry 1024x1024 usctex_montage_1024.png
