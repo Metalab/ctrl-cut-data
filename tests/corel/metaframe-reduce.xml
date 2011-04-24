@@ -1,0 +1,57 @@
+<cut clipped="0">
+<polylines cnt="2" >
+<polyline id="2" >
+<bbox distToOrigin="1528" ul.x="1033" ul.y="1127" lr.x="5734" lr.y="4401" />
+<edge power="-1" id="9" >
+<vertex x="1033" y="1127" id="1" key="1033/1127" />
+<vertex x="5734" y="1127" id="0" key="5734/1127" />
+</edge>
+<edge power="-1" id="11" >
+<vertex x="5734" y="1127" id="0" key="5734/1127" />
+<vertex x="5734" y="4401" id="2" key="5734/4401" />
+</edge>
+<edge power="-1" id="13" >
+<vertex x="5734" y="4401" id="2" key="5734/4401" />
+<vertex x="1033" y="4401" id="4" key="1033/4401" />
+</edge>
+<edge power="-1" id="14" >
+<vertex x="1033" y="4401" id="4" key="1033/4401" />
+<vertex x="1033" y="1127" id="1" key="1033/1127" />
+</edge>
+</polyline>
+<polyline id="3" >
+<bbox distToOrigin="2374" ul.x="1650" ul.y="1707" lr.x="5146" lr.y="3853" />
+<edge power="-1" id="16" >
+<vertex x="1650" y="1707" id="9" key="1650/1707" />
+<vertex x="5146" y="1707" id="8" key="5146/1707" />
+</edge>
+<edge power="-1" id="18" >
+<vertex x="5146" y="1707" id="8" key="5146/1707" />
+<vertex x="5146" y="3853" id="10" key="5146/3853" />
+</edge>
+<edge power="-1" id="20" >
+<vertex x="5146" y="3853" id="10" key="5146/3853" />
+<vertex x="1650" y="3853" id="12" key="1650/3853" />
+</edge>
+<edge power="-1" id="21" >
+<vertex x="1650" y="3853" id="12" key="1650/3853" />
+<vertex x="1650" y="1707" id="9" key="1650/1707" />
+</edge>
+</polyline>
+</polylines>
+<mesh>
+<edges cnt="0" >
+</edges>
+<vertices cnt="8" >
+<vertex x="1033" y="1127" id="1" key="1033/1127" />
+<vertex x="1033" y="4401" id="4" key="1033/4401" />
+<vertex x="1650" y="1707" id="9" key="1650/1707" />
+<vertex x="1650" y="3853" id="12" key="1650/3853" />
+<vertex x="5146" y="1707" id="8" key="5146/1707" />
+<vertex x="5146" y="3853" id="10" key="5146/3853" />
+<vertex x="5734" y="1127" id="0" key="5734/1127" />
+<vertex x="5734" y="4401" id="2" key="5734/4401" />
+</vertices>
+</mesh>
+
+</cut>
